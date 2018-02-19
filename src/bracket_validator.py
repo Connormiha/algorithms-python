@@ -1,4 +1,4 @@
-def is_valid_bracket(string):
+def is_valid_bracket(string: str) -> bool:
     brackets_open = "([{"
     brackets_close = ")]}"
 
